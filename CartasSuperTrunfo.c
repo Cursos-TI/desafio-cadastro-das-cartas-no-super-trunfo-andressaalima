@@ -17,7 +17,8 @@ int main() {
     int pontos1, pontos2;
 
     //Aqui começamos a interagir com o usuário, para que o mesmo preencha os dados das cartas.
-    printf("Vamos cadastrar as cartas para o nosso jogo Super Trunfo?\n");
+    printf("Bem vindo(a) ao jogo Super Trunfo! \n");
+    printf("Vamos começar cadastrando as cartas?\n");
     printf("\n");
     printf("Primeiro, digite os dados da primeira carta.\n");
     printf("\n");
@@ -39,7 +40,7 @@ int main() {
     printf("Digite a área da cidade em quilômetros quadrados: \n");
     scanf(" %f", &area1);
 
-    printf("Digite o Produto Interno Bruto da cidade: \n");
+    printf("Digite o Produto Interno Bruto da cidade em bilhões de reais: \n");
     scanf(" %f", &pib1);
 
     printf("Digite a quantidade de pontos turísticos da cidade: \n");
@@ -67,7 +68,7 @@ int main() {
     printf("Digite a área da cidade em quilômetros quadrados: \n");
     scanf(" %f", &area2);
 
-    printf("Digite o Produto Interno Bruto da cidade: \n");
+    printf("Digite o Produto Interno Bruto da cidade em bilhões de reais: \n");
     scanf(" %f", &pib2);
 
     printf("Digite a quantidade de pontos turísticos da cidade: \n");
@@ -86,7 +87,7 @@ int main() {
     printf("Nome da cidade: %s\n", cidade1);
     printf ("População: %d habitantes\n", populacao1);
     printf ("Área: %.2f km²\n", area1);
-    printf ("PIB: R$ %.2f\n", pib1);
+    printf ("PIB: R$ %.1f bilhões\n", pib1);
     printf ("Número de Pontos Turísticos: %d\n", pontos1);
     
     printf("\n");
@@ -96,7 +97,7 @@ int main() {
     printf("Nome da cidade: %s\n", cidade2);
     printf ("População: %d habitantes\n", populacao2);
     printf ("Área: %.2f km²\n", area2);
-    printf ("PIB: R$ %.2f\n", pib2);
+    printf ("PIB: R$ %.1f bilhões\n", pib2);
     printf ("Número de Pontos Turísticos: %d\n", pontos2);
     printf("\n");
 
